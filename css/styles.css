@@ -501,6 +501,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  width: fit-content;
 }
 
 .footer-second-block {
