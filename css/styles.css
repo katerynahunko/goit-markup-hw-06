@@ -611,7 +611,6 @@ footer {
   padding-left: 16px;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .footer-subscribe-input:focus {
@@ -867,6 +866,7 @@ footer {
 }
 
 .contact-form-checkbox-label {
+  position: relative;
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -889,15 +889,19 @@ footer {
   margin-right: 7px;
 }
 
+.contact-form-checkmark {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  padding-left: 2px;
+}
+
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
   border: 0.2px solid var(--accent-color);
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   background-color: var(--accent-color);
-  background-image: url("../images/icon-checkbox.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   border: 0.2px solid #ffffff;
 }
 
