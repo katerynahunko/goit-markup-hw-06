@@ -866,7 +866,6 @@ footer {
 }
 
 .contact-form-checkbox-label {
-  position: relative;
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -881,6 +880,7 @@ footer {
 
 .contact-form-checkbox-label::before {
   content: "";
+  position: relative;
   display: inline-block;
   width: 16px;
   height: 16px;
