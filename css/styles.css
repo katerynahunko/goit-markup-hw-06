@@ -872,6 +872,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-left: 14px;
 }
 
 .contact-form-checkbox-wrapper {
