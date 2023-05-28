@@ -895,7 +895,7 @@ footer {
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   background-color: var(--accent-color);
-  background-image: url("/images/icon-checkbox.svg");
+  background-image: url("images/icon-checkbox.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 0.2px solid #ffffff;
